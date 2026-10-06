@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f5ff;
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 30px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #6c4ab6, #9b6de3);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 60px;
+    line-height: 1.1;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: white;
+    color: #6c4ab6;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mood-section {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.mood-section h2,
+.recommendations h2,
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.mood-section p {
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.moods {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mood-card {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mood-card span {
+    display: block;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.mood-card:hover {
+    transform: translateY(-8px);
+}
+
+.recommendations {
+    text-align: center;
+    padding: 70px 20px;
+    background: white;
+}
+
+.song-list {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.song-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 15px 0;
+    background: #f7f5ff;
+    border-radius: 15px;
+}
+
+.about {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.about > p {
+    max-width: 650px;
+    margin: 20px auto 40px;
+    color: #666;
+    line-height: 1.7;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.steps div {
+    background: white;
+    padding: 25px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.steps strong {
+    font-size: 30px;
+    color: #6c4ab6;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #211735;
+    color: white;
+}
+
+footer p {
+    margin-top: 10px;
+    opacity: 0.7;
+}
